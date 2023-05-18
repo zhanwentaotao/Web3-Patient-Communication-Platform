@@ -1,8 +1,6 @@
 # Lens SDK + wagmi + Bundlr
 
-This package is an example app showcasing the `@lens-protocol/react` capabilities as well as a possible integration with [wagmi](https://wagmi.sh/) and Aerwave via [Bundlr](https://github.com/Bundlr-Network).
-
-It is not published or released anywhere directly.
+本app是基于`@lens-protocol/react` 以及[wagmi](https://wagmi.sh/)、[Bundlr](https://github.com/Bundlr-Network) 构造的web3患者交流社群
 
 ## Getting Started
 
@@ -11,4 +9,4 @@ pnpm install
 
 pnpm dev
 
-Ensure you previously built all the dependencies. See [main setup](../../README.md#setup).
+Ensure you previously built all the dependencies. 
