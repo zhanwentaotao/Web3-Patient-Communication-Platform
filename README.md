@@ -4,9 +4,21 @@
 
 ## Getting Started
 
-You can run the dev server via:
+You can run the dev server in this steps:
+
+# Install pnpm
+npm i -g pnpm
+
+# Install dependencies
 pnpm install
 
+# Copy & fill environments
+# NOTE: Documentation of environment variables can be found in the according `.example` files
+cp packages/frontend/.env.local.example packages/frontend/.env.local
+cp packages/contracts/.env.example packages/contracts/.env
+``
+### Quickstart
+```bash
+# Generate contract-types, start local hardhat node, and start frontend with turborepo
 pnpm dev
 
-Ensure you previously built all the dependencies. 
