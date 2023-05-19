@@ -6,6 +6,7 @@
 
 You can run the dev server in this steps:
 
+```bash
 # Install pnpm
 npm i -g pnpm
 
@@ -18,7 +19,6 @@ cp packages/frontend/.env.local.example packages/frontend/.env.local
 cp packages/contracts/.env.example packages/contracts/.env
 ``
 ### Quickstart
-```bash
 # Generate contract-types, start local hardhat node, and start frontend with turborepo
 pnpm dev
 
